@@ -26,7 +26,9 @@ jobs:
         run: yarn
 
       - name: Build
-        run: yarn build
+        run: |
+          cd Starbucks/Starbucks
+          yarn run build
 
       - name: Deploy
         env:
