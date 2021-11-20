@@ -26,8 +26,7 @@ jobs:
         run: yarn
 
       - name: Build
-        run: |
-          cd Starbucks/Starbucks
+        run: 
           yarn run build
 
       - name: Deploy
